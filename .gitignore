@@ -9,3 +9,6 @@ resource
 2020*
 avatar.index
 emoji.cache
+.DS_Store
+working_decrypt.py
+*.ttf

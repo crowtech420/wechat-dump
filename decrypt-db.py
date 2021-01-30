@@ -17,8 +17,9 @@ from wechat.common.procutil import subproc_succ, subproc_call
 
 logger = logging.getLogger("wechat")
 
-RES_DIR = "/mnt/sdcard/tencent/MicroMsg"
-MM_DIR = "/data/data/com.tencent.mm"
+RES_DIR="/mnt/sdcard/Android/data/com.tencent.mm/MicroMsg"
+#for LineageOS - Matches android-interact.sh
+MM_DIR="/data/data/com.tencent.mm"
 
 
 def get_uin():
@@ -182,3 +183,4 @@ if __name__ == "__main__":
                 else:
                     logger.info(f"Database dumped to {output_file}")
                     sys.exit()
+                    

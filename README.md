@@ -2,6 +2,8 @@
 
 ## 导出安卓微信消息记录
 
+Modified for use on Mi MIX 2S, LineageOS 17.1 (Android 10), WeChat v7.0.19
+
 WeChat, as the most popular mobile IM app in China, doesn't provide any options to export structured message history.
 This tool can decrypt and parse WeChat messages on a rooted android phone,
 and dump messages into self-contained html files including voice messages, images, emojis, videos, etc.
