@@ -12,3 +12,4 @@ emoji.cache
 .DS_Store
 working_decrypt.py
 *.ttf
+*.txt
