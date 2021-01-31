@@ -13,3 +13,4 @@ emoji.cache
 working_decrypt.py
 *.ttf
 *.txt
+*.tsv
